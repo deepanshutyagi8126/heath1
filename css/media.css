@@ -286,7 +286,11 @@
     box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.5);
 	height: 500px;
 	overflow-y: auto;
-}   
+	padding-top: 0;
+}  
+	.homeSearch .form-control{
+		display: none;
+	}
     .nav-link:hover, .nav-link:focus
     {
         border-bottom: none;
@@ -396,7 +400,7 @@
 }
 .navbar-nav.healthHead {
     align-items: flex-start;
-    margin-top: 25px;
+/*    margin-top: 25px;*/
     margin-left: 8px;
 }
 	.notificationAll {
