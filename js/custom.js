@@ -157,8 +157,8 @@ function myFunction() {
   }
 }
 // input js
-$(document).on('focus' ,'input' ,function(){
-$('.prfl_form .form-group').each(function(){
+$(document).on('focus' ,'input , textarea' ,function(){
+$('.prfl_form .form-group,.createOp .form-group').each(function(){
 var labelVal = $(this).children('label').text();
 if(labelVal != ''){
 $(this).children('input').attr('placeholder' ,labelVal);
