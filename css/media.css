@@ -277,7 +277,7 @@
     top: 12px;
     left: -275px;
     background: var(--colorWhite);
-    height: 100%;
+/*    height: 100%;*/
     transition: all 0.3s ease;
     display: initial !important;
     margin-top: 60px;
