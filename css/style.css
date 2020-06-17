@@ -2762,11 +2762,11 @@ border-radius: 50%;
 	text-align: center;
 }
 .shownAfter{
-	display: none;
+	display: block;
 }
 
 .shownBefore{
-	display: block;
+	display:none ;
 }
 .singupIndex .modal-dialog {
     height: 135vh;
