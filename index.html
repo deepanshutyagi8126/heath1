@@ -45,9 +45,9 @@
 								<li class="nav-item"><a class="nav-link active underline" href="javascript:void(0)">Home</a></li>
 								<li class="nav-item afterLogin categoryBox"><a class="nav-link subMenu underline" href="myorder.html">My Order</a>
 								</li>
-								<li class="nav-item afterLogin categoryBox shownBefore"><a class="nav-link subMenu underline" href="javascript:void(0)" data-toggle="modal" data-target="#SingnUpModal">Sign Up</a>
+								<li class="nav-item afterLogin categoryBox shownBefore"><a class="nav-link subMenu underline checkMargin bordrbtn" href="javascript:void(0)" data-toggle="modal" data-target="#SingnUpModal">Sign Up</a>
 								</li>
-								<li class="nav-item afterLogin categoryBox shownBefore"><a class="nav-link subMenu underline" href="javascript:void(0)" data-toggle="modal" data-target="#myModal">Login</a>
+								<li class="nav-item afterLogin categoryBox shownBefore"><a class="nav-link subMenu underline bordrbtn" href="javascript:void(0)" data-toggle="modal" data-target="#myModal">Login</a>
 								</li>
 								<li class="nav-item shownAfter"><a class="nav-link" href="cart.html"><img src="img/cart.svg" class="img-fluid desktopView" alt="cart"></a></li>
 								<li class="nav-item shownAfter"><a class="nav-link notAll" href="javascript:void(0)"><img src="img/notification.svg" class="img-fluid desktopView" alt="notification"></a>
@@ -343,8 +343,8 @@
 				</div>
 				<div class="preventRight">
 					<ul>
-						<li><a href="survey-form.html">Survey 1</a></li>
-						<li><a href="survey-form-2.html" class="active">Survey 2</a></li>
+						<li><a href="survey-form.html" class="btnHover">Survey 1</a></li>
+						<li><a href="survey-form-2.html" class="active btnHover">Survey 2</a></li>
 					</ul>
 				</div>
 			</div>
@@ -424,7 +424,7 @@
 	
 	
                 <!-- The Modal -->
-                <div class="modal login_modal" id="myModal">
+                <div class="modal login_modal login_modalnew" id="myModal">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <!-- Modal Header -->
@@ -437,7 +437,7 @@
                             <div class="prfile_form">
                                 <form action="">
                                     <div class="row">
-                                        <div class="col-md-7 log_left">
+                                        <div class="col-md-7 createOp log_left">
                                         
                                             <div class="form-group">
                                                 <label></label>
@@ -450,13 +450,13 @@
                                             </div>
                                             <a href="#" class="paraa forgot"  data-toggle="modal" data-target="#forgetModal" data-dismiss ="modal">Forgot Password</a>
                                         <div class="edit_profile logn2">
-                                            <a href="javascript:void(0)">Login</a>
+                                            <a href="javascript:void(0)" class="btnHover">Login</a>
                                         </div>
                                     </div>
                                     <div class="col-md-5 log_ryt">
                                         <div class="connect_social">
                                             <p class="paraa connect_media">Connect with social media</p>
-                                            <div class="connect_fcbuk">
+                                            <div class="connect_fcbuk connect_fcbuknew">
                                                 <a href="#"class="fcbookcnct paraa"><span class="fb_img"><img src="img/facebook_login.svg" class="img-fluid" alt="image"></span>Connect with Facebook</a>
                                             </div>
                                             <div class="connect_fcbuk google">
@@ -487,7 +487,7 @@
                             <div class="prfile_form">
                                 <form action="">
                                     <div class="row">
-                                        <div class="col-md-6">
+                                        <div class="col-md-6 createOp">
                                             <div class="form-group">
                                                 <select name="select_category" id="categoey" class="prfl_select">
                                                     <option value="">Select Customer Category </option>
@@ -497,37 +497,37 @@
                                                 </select>
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
+                                        <div class="col-md-6 createOp">
                                             <div class="form-group">
                                                 <label></label>
                                                 <input type="text" class="form-control" id="" placeholder="Full Name" name="" />
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
+                                        <div class="col-md-6 createOp">
                                             <div class="form-group">
                                                 <label></label>
                                                 <input type="text" class="form-control" id="" placeholder="Attended By" name="" />
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
+                                        <div class="col-md-6 createOp">
                                             <div class="form-group">
                                                 <label></label>
                                                 <input type="text" class="form-control" id="" placeholder="Business Name" name="" />
                                             </div>
                                         </div>
-                                        <div class="col-md-12">
+                                        <div class="col-md-12 createOp">
                                             <div class="form-group">
                                                 <label></label>
                                                 <input type="text" class="form-control" id="" placeholder="Business Address" name="" />
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
+                                        <div class="col-md-6 createOp">
                                             <div class="form-group">
                                                 <label></label>
                                                 <input type="text" class="form-control" id="" placeholder="House no/Flat no" name="" />
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
+                                        <div class="col-md-6 createOp">
                                             <div class="form-group">
                                                 <label></label>
                                                 <input type="text" class="form-control" id="" placeholder="FArea/Locality/Landmark" name="" />
@@ -823,62 +823,62 @@
                                                 </select>
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
+                                        <div class="col-md-6 createOp">
                                             <div class="form-group">
                                                 <label></label>
                                                 <input type="number" class="form-control" id="" placeholder="Postal Code" name="" />
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
+                                        <div class="col-md-6 createOp">
                                             <div class="form-group">
                                                 <label></label>
                                         <input type="number" class="form-control" id="" placeholder="Business Registered Number" name="" />
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
+                                        <div class="col-md-6 createOp">
                                             <div class="form-group">
                                                 <label></label>
                                                 <input type="number" class="form-control" id="" placeholder="Business Tel" name="" />
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
+                                        <div class="col-md-6 createOp">
                                             <div class="form-group">
                                                 <label></label>
                                                 <input type="number" class="form-control" id="" placeholder="Mobile Number" name="" />
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
+                                        <div class="col-md-6 createOp">
                                             <div class="form-group">
                                                 <label></label>
                                                 <input type="text" class="form-control" id="" placeholder="Contact Person Name" name="" />
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
+                                        <div class="col-md-6 createOp">
                                             <div class="form-group">
                                                 <label></label>
                                                 <input type="email" class="form-control" id="" placeholder="Contact Person Email" name="" />
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
+                                        <div class="col-md-6 createOp">
                                             <div class="form-group">
                                                 <label></label>
                                                 <input type="email" class="form-control" id="" placeholder="Your Email Address" name="" />
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
+                                        <div class="col-md-6 createOp">
                                             <div class="form-group">
                                                 <label></label>
                                                 <input type="password" class="form-control crt_pswrd" id="textPassword" placeholder="Create Password" name="" />
                                                 <img src="img/pswd.svg" class="img-fluid seen_img" onclick="myFunction()" alt="image" />
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
+                                        <div class="col-md-6 createOp">
                                             <div class="form-group">
                                                 <label></label>
                                                 <input type="password" class="form-control" id="" placeholder="Confirm Password" name="" />
                                             </div>
                                         </div>
-                                        <div class="col-md-6 edit_profile">
+                                        <div class="col-md-6 edit_profile createOp">
                                             <a href="javascript:void(0)"  data-toggle="modal" data-target="#verificationModal"  data-dismiss="modal">Login</a>
                                         </div>
                                         <div class="col-md-6 logIn">
@@ -979,7 +979,7 @@
                                             </div>
                                         </div>
                                         <div class="edit_profile submit_btn">
-                                            <button type="submit" data-toggle="modal" data-target="#createModal" data-dismiss="modal">Submit</button>
+                                            <button type="submit" data-toggle="modal" data-target="#createModal" data-dismiss="modal" class="btnHover">Submit</button>
                                         </div>
                                         <a href="#" class="paraa anthr_opt">Request another OTP</a>
                                     </div>
@@ -1037,7 +1037,7 @@
                                             </div>
                                         </div>
                                         <div class="edit_profile submit_btn">
-                                            <a href="#"  data-toggle="modal" data-target="#verificationModalNew" data-dismiss ="modal">Continue</a>
+                                            <a href="#"  data-toggle="modal" data-target="#verificationModalNew" data-dismiss ="modal" class="btnHover">Continue</a>
                                         </div>
                                     </div>
                                 </form>
@@ -1061,7 +1061,7 @@
                             <div class="modal-body">
                                 <form>
                                     <div class="row create_form notopPadding">
-                                        <div class="prfile_form">
+                                        <div class="prfile_form createOp">
                                             <div class="form-group">
                                                 <label></label>
                                                 <input type="password" class="form-control crt_pswrd" id="textPassword" placeholder="Create Password" name="" />
@@ -1073,7 +1073,7 @@
                                             </div>
                                         </div>
                                         <div class="edit_profile submit_btn">
-                                            <a href="#">Reset Password</a>
+                                            <a href="#" class="btnHover">Reset Password</a>
                                         </div>
                                     </div>
                                 </form>
