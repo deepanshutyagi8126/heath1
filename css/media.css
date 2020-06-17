@@ -108,6 +108,9 @@
 		flex: 100%;
     max-width: 100%;
 	}
+	.singupIndex .modal-dialog {
+    height: 150vh;
+}
 }
 @media(max-width:991px){
 
@@ -243,6 +246,18 @@
 	.tabletRight ul li:first-child {
     margin-right: 10px;
 }
+	.brandIn h2,.brandIn ul{
+		text-align: center;
+	}
+	.teamHelp{
+		width: 100%;
+	}
+	li.Question {
+    font-size: 16px;
+}
+	.form_cmnt{
+		font-size: 16px;
+	}
 }
 @media(max-width:767px){ 
     
@@ -254,6 +269,7 @@
     }
 	.header {
     background: var(--colorWhite);
+		box-shadow:  0 2px 4px 0 rgba(0, 0, 0, 0.16)
 }
 .navbar-expand-md .navbar-collapse {
     position: fixed;
@@ -452,6 +468,7 @@
     width: 100%;
     padding-left: 0%;
 		    margin-top: 5%;
+		text-align: left;
 }
 	.placeOrder.placeTop .col-sm-6{
     flex: 0 0 100%;
@@ -512,6 +529,58 @@
 	.cartMob{
 		display: block;
 	}
+	.productDetail2.placeTop .contain {
+  text-align: center;
+}
+	.modal.login_modal.login_modalnew .modal-dialog{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 113vh;
+		width: 90%;
+	}
+	.logn2 {
+    width: 65%;
+    margin-top: 36px;
+}
+	.log_left:after,.log_left:before{
+		display: none;
+	}
+	a.fcbookcnct.paraa {
+    padding-top: 1px;
+}
+	.connect_fcbuk {
+    width: 48%;
+}
+	.log_ryt{
+		padding: 0;
+		padding-top: 20px;
+	}
+	.connect_fcbuk.connect_fcbuknew{
+		margin-right: 12px;
+	}
+	.connect_media {
+     padding-left: 0; 
+    text-align: center;
+}
+	.create_form {
+    padding: 14px 50px 0px 50px;
+}
+	.singupIndex .modal-dialog {
+    height: 255vh;
+}
+	.checkMargin{
+		margin-bottom: 20px;
+	}
+	.cartLeft {
+    width: 100%;
+    overflow: auto;
+    white-space: nowrap;
+    overflow-y: hidden;
+}
+	.help_para.feedall {
+    width: 75%;
+}
 }
 @media(max-width:560px){
 /*jyoti css*/
@@ -525,7 +594,7 @@
 }
 /*10-06-2020*/
 p.modal_para {
-    padding: 12px 77px;
+    padding: 12px 20px;
 }
 .signup_modal .modal-body h4{
     padding: 0px 13px;
@@ -534,10 +603,13 @@ h4.Heading{
     font-size: 20px;
 }
 .opt_form {
-    padding: 14px 70px 0px 70px;
+    padding: 14px 20px 0px 20px;
 }
 .srveyChekbox .col-md-4 {
     max-width: 33.33333%;
+}
+	.submit_btn {
+    width: 100%;
 }
 /*jyoti css end*/
 
@@ -639,6 +711,59 @@ h4.Heading{
 	.header {
     padding: 15px 0px;
 }
+	.ciplaCont p{
+		font-size: 14px;
+	}
+	.brandIn ul{
+		text-align: center;
+	}
+	.brandIn h2{
+		text-align: center;
+	}
+	.feautreAll {
+    text-align: center;
+}
+	.featureFirst{
+		text-align: left;
+	}
+	.preventIn{
+		text-align: center;
+	}
+	.preventLeft h2 {
+    font-size: 15px;
+}
+	.locationAl a {
+    font-size: 12px;
+}
+	.modal.login_modal.login_modalnew .modal-dialog {
+    width: 97%;
+		height: 100vh;
+}
+	.fb_img {
+    margin-right: 8px;
+}
+	.connect_social{
+		text-align: center;
+	}
+	.connect_fcbuk {
+    width: 55%;
+		margin-right: 0;
+}
+	.connect_fcbuk.connect_fcbuknew{
+		margin-right: 0;
+	}
+	.connect_fcbuk {
+    width: 90%;
+}
+	.placeTop {
+    margin-top: 90px;
+}
+	h2.headingSize {
+    font-size: 25px;
+}
+		.help_para.feedall {
+    width: 100%;
+}
 }
 /* jyoti css end*/
 @media(max-width:414px){
@@ -650,20 +775,20 @@ h4.Heading{
     top:10px;
 }
 .paraa{
-    padding-bottom: 27px;
+    padding-bottom: 0px;
 }
 .prfile_form input::placeholder{
     font-size: 12px;
 }
 /*10-06-2020*/
 p.modal_para {
-    padding: 11px 30px;
+    padding: 11px 20px;
 }
 h4.Heading {
     font-size: 17px;
 }
 .opt_form {
-    padding: 14px 40px 0px 40px;
+    padding: 14px 20px 0px 20px;
 }
 .close_mdl{
     top:10px;
@@ -683,8 +808,18 @@ font-size:15px;
 .login_modal .modal-content {
     padding: 0px 20px 30px 20px;
 }
+	.social_signup{
+		padding-top: 20px;
+	}
+	.logn2 {
+    margin-top: 25px;
+}
+	.create_form {
+    padding: 14px 25px 0px 25px;
+}
 	.bannerIn {
     min-height: 225px;
+		    background-size: cover;
 }
 	.brandIn ul li{
 		width: 49%;
@@ -722,6 +857,7 @@ font-size:15px;
 }
 	.bannerIn.bannerIn2 {
     min-height: 200px;
+		    background-size: cover;
 }
 	.feautreAll{
 		text-align: center;
@@ -861,7 +997,22 @@ font-size:15px;
 	.header {
     padding: 17px 0px;
 }
-
+	h2.headingSize {
+    font-size: 22px;
+    line-height: 28px;
+}
+	.brdcumb_cont.brdcumb_contnew1.brdcumb_cont2{
+		top: -20px;
+	}
+	.tabletRight h2 {
+    font-size: 16px;
+    line-height: 23px;
+}
+}
+@media(max-width:330px){
+	.navbar-brand.logo {
+    width: 120px;
+}
 }
 @media(max-width:355px){
 .notificationAll {
